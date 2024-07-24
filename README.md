@@ -101,7 +101,7 @@ g++ -o market_maker market_maker.cpp -lcurl -lssl -lcrypto -pthread
 
 ## Notes
 
-- Ensure you have valid API and secret keys from Binance.
+- Ensure you have valid API and secret keys from Binance. (Since this is on testnet environment, I did not remove my API keys in the code)
 - This code uses the Binance futures testnet, which allows you to test without risking real funds.
 - Adjust the configuration constants as needed for your strategy.
 
